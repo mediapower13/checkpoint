@@ -9,7 +9,7 @@ func printUsage() {
 	fmt.Println("options: abcdefghijklmnopqrstuvwxyz")
 }
 
-func main() {
+func maind() {
 	args := os.Args[1:]
 	// If no args => print usage
 	if len(args) == 0 {
