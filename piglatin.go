@@ -15,7 +15,7 @@ func isVowel(r rune) bool {
 	}
 }
 
-func main() {
+func mainf() {
 	if len(os.Args) != 2 {
 		return
 	}
