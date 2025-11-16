@@ -11,7 +11,7 @@ func printError() {
 	fmt.Println("Error")
 }
 
-func main() {
+func maini() {
 	if len(os.Args) != 2 {
 		printError()
 		return
