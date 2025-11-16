@@ -21,7 +21,7 @@ func isPrime(n int) bool {
 	return true
 }
 
-func main() {
+func maink() {
 	if len(os.Args) != 2 {
 		fmt.Println(0)
 		return
