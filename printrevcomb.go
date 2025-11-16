@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainc() {
 	first := true
 	for a := 9; a >= 0; a-- {
 		for b := a - 1; b >= 0; b-- {
