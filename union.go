@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func maina() {
 	if len(os.Args) != 3 {
 		fmt.Println()
 		return
