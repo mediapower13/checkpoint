@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func mainv() {
 	if len(os.Args) != 2 {
 		return
 	}
