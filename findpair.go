@@ -7,7 +7,7 @@ import (
 
 // Program: prints characters that appear in both arguments, without duplicates,
 // in the order they appear in the first argument.
-func main() {
+func mainj() {
 	if len(os.Args) != 3 {
 		return
 	}
